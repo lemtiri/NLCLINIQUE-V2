@@ -1,35 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.LOGO{
-    position: sticky;
-    left: 5px;
-}
-header{
-    width:100%;
-  height: 500px;
+
+
+.home {
+
     background-image: url("../images/Frame.png");
-  
-}
-
-.menu a{
- color: #ffffff; 
-    text-decoration: none; 
-    text-decoration: none; 
-      margin-left: 25px;
-
+    width: 100%;
+    height: 135vh;
 
 }
+
+.menu a {
+    color: #ffffff;
+    text-decoration: none;
+    text-decoration: none;
+    margin-left: 4px;
+    padding: 13px;
+
+
+}
+
 .headd {
 
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-  
+
 }
-.headmenu{
+
+.headmenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,31 +39,213 @@ header{
 }
 
 
-.search-box {
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px 1px 10px 10px;
+    width: 150px;
+    background-color: transparent;
+    margin-right: 20px;
+}
+
+.search i {
+    color: white;
+    margin-right: 15px;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+
+}
+
+.searchi nput::placeholder {
+    color: rgba(174, 220, 177, 0.7);
+}
+
+.header1 {
+    position: relative;
+    padding-right: 40px;
+}
+
+.asset {
+    position: absolute;
+    left: 625px;
+    width: 30px;
+}
+
+.asset img {
+    width: 520px;
+
+}
+
+.asset {
+    position: absolute;
+    top: 110px;
+}
+
+.logo {
+    height: 60px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    object-fit: contain;
+
+}
+
+
+.textyour {
+    display: inline-block;
+    background: #34d56d9d;
+    border: 2px solid #19e388;
+    color: white;
+    padding: 7px 30px;
+    border-radius: 20px 20px 0px 20px;
+    font-size: 16px;
+
+}
+
+.textyour {
+    position: relative;
+    top: 80px;
+}
+
+.more {
+    position: relative;
+    top: 100px;
+}
+
+.we {
+    position: relative;
+    top: 130px;
+}
+
+.app button {
+    padding: 10px 44px 12px 10px;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+
+}
+
+.app {
+    position: relative;
+    top: 200px;
+}
+
+.btn {
+    position: relative;
+    top: 165.9px;
+    margin-left: 148px;
+}
+.vect{
+    position: relative;
+    margin-left: 390px;
+    bottom: 30px;
+}
+.or {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 140px;
+    margin-left: 200px;
+}
+
+.cn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+}
+
+.cn {
+    position: relative;
+    top: 120px;
+    margin-left: 245px;
+}
+
+.hor {
+    position: relative;
+    top: 220px;
+}
+
+.hour {
+    color: #ffffff;
+    position: relative;
+    top: 158px;
+    margin-left: 85px;
+}
+
+.leftsection {
+    padding: 60px;
+}
+
+.checkcmp {
+    position: relative;
+    bottom: 77.68px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.check {
+    background: #ffffff;
+    border-radius: 25px 25px 0px 0px;
+    padding: 40px;
+    width: 600px;
+    height: 284px;
+
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+
+.inputb {
+  flex: 1;
   display: flex;
   align-items: center;
-  border: 1px solid white;
-  border-radius: 25px;
-  padding: 8px 15px;
-  width: 220px;
-  background-color: transparent;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px 15px;
+  background-color: #fff; /* باش يكون واضح */
+  position: relative; /* ضروري باش نتحكم فالعناصر داخلها */
 }
 
-.search-box i {
-  color: white;
+.inputb i {
+  color: #2196f3;
   margin-right: 10px;
+  font-size: 18px;
+  min-width: 20px;
 }
 
-.search-box input {
-  background: transparent;
-  border: none;
-  outline: none;
-  color: white;
-  font-size: 14px;
-  width: 100%;
+.inputb input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: gray;
 }
 
-.search-box input::placeholder {
-  color: rgba(255, 255, 255, 0.7);
+.btncheck {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 120px;
 }
-
