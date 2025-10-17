@@ -575,4 +575,31 @@ padding-top: 40px;
     font-family: fantasy;
     cursor: pointer;
 }
+.join1{
+    border: 1px solid #baccc4;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+}
+ 
+.join22{
+  display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+  
+}
 
+.pr{
+
+    display: inline-block;
+    background: #34d56d9d;
+    border: 2px solid #19e388;
+    color: white;
+    padding: 7px 30px ;
+    border-radius: 20px 20px 0px 20px;
+    font-size: 16px;
+    position: absolute;
+    left : 550px ;
+  
+}
