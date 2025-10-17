@@ -491,7 +491,7 @@ padding-top: 40px;
     cursor: pointer;
     text-decoration: none;
     position: relative;
-    margin-left: 525px;
+    margin-left: 510px;
     
   }
   .dctr1{
@@ -508,3 +508,71 @@ padding-top: 40px;
     padding-left: 45px;
     padding-right: 45px; 
   }
+.ourdc{
+    display: inline-block;
+    background: #34d56d9d;
+    border: 2px solid #19e388;
+    color: white;
+    padding: 7px 30px ;
+    border-radius: 20px 20px 0px 20px;
+    font-size: 16px;
+    position: absolute;
+    left : 550px ;
+  }
+  .doctors{
+   text-align: center; 
+  }
+  .seebtn {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  cursor: pointer;
+
+  margin: 0 auto;
+}
+
+.seebtn .flx {
+  background-color: white;
+  color: #ff6f61;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 18px;
+ 
+}
+.appointment-book{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.appointment-book-text{
+    position: absolute;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    left: 220px;
+    top: 80px;
+    font-size: 20px;
+   
+}
+.appointment-book-text div{
+    background-color: rgba(227, 250, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    border-radius: 35px;
+    font-size: 15px;
+    font-family: fantasy;
+    cursor: pointer;
+}
+
