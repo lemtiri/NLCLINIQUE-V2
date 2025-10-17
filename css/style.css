@@ -845,4 +845,38 @@ display: flex;
 }
 footer{
   padding: 10px;
+  background-color: #e8f6fd;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+.quick li a{
+  text-decoration: none;
+  color: #8ac7f9;
+}
+.work li a{
+  text-decoration: none;
+  color: #8ac7f9;
+}
+.legal li a{
+  text-decoration: none;
+  color: #8ac7f9;
+}
+.local{
+  margin-left: 450px;
+}
+.para{
+ position: relative;
+  bottom: 54px;
+
+}
+.mail{
+  border: 1px solid blue;
+  
+}
+.mail_sub{
+  border: 1px solid  blue;
+  padding: 10px;
+  border-radius: 20px;
+  color: #2196f3;
+  cursor: pointer;
 }
