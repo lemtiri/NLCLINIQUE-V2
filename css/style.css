@@ -495,13 +495,16 @@ padding-top: 40px;
     
   }
   .dctr1{
-    background-color: #baccc4;
-    width: 300px;
-    height:500px;
+    background-color: #c5d3cd94;
+    width: 345px;
+    height:450px;
     border-radius: 20px 20px 20px 20px;
-     padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    
     text-align: center;
+  }
+  .dctrs1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 45px;
+    padding-right: 45px; 
   }
