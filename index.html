@@ -4,12 +4,13 @@
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 
 </head>
 
 <body>
+    <!--home-->
     <div class="home">
         <header>
             <div class="header1">
@@ -107,12 +108,11 @@
 
     </div>
     <img src="images/Frame 319.png" width="100%" alt="">
-    <!--    ==================== about =============================    -->
+  
+    <div class="partabout">
 
-    <div class="cont_servises">
 
-
-        <div class="cont_servises1"> <img src="images/doctor1.png" alt="" class="about_img">
+        <div class="partabout1"> <img src="images/doctor1.png" alt="" class="about_img">
             <div>
                 <h2 class="habout">about us</h2>
                 <h1 class="INSWER">We Are Always Ensure
@@ -127,7 +127,7 @@
             </div>
         </div>
 
-        <div class="cont_servises1"> <img src="images/doctor2.png" alt="" class="about_img">
+        <div class="partabout1"> <img src="images/doctor2.png" alt="" class="about_img">
             <div class="year_20">
                 <h2 style="color: white;">20 <br>Years Experience</h2>
             </div>
@@ -150,16 +150,16 @@
                 </div>
 
 
-            </div> <a href="#" class="btn-more">
-                More About Us
-                <i class="fa fa-arrow-right"></i>
-            </a>
-        </div>
+            </div>
 
+        </div>
+        <button class="seebtn">
+            See More Doctors
+            <span style="font-size: 30px;" class="flx">→</span>
+        </button>
 
     </div>
     <div> <img src="images/porcentage.png" width="100%"></div>
-
     <!--services-->
     <div class="services">
         <h4 class="sr">Our Services</h4>
@@ -343,10 +343,10 @@
     <div class="appointment-book">
 
         <div class="appointment-book-text">
-            <h1> Want to Immediately<br>
+            <h1 style="color: rgb(255, 255, 255);"> Want to Immediately<br>
                 See Our Trusted Doctor?
             </h1>
-            <p>
+            <p style="color: rgb(255, 255, 255);">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam<br>
                 hendrerit metus ex, id ullamcorper massa accumsan volutpat.<br>
                 Etiam viverra pharetra dui, nec aliquet nisi consequat sit amet.
@@ -356,8 +356,12 @@
         <div>
             <img src="images/Framebachground.png" width="100%">
         </div>
-    </div>
 
+    </div>
+    <button class="butonappo">
+        See More Doctors
+        <span style="font-size: 30px;" class="flxapp">→</span>
+    </button>
     <!--pricing-->
     <section>
         <br>
@@ -504,58 +508,63 @@
 
 
             <img src="images/logoonlv2.png" width="200px">
-            <div class="quick">
+            <div class="qwl">
 
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Event</a></li>
-                    <li><a href="#">Branding</a></li>
-                </ul>
 
+                <div class="quick">
+
+                    <h3>Quick Links</h3><br>
+                    
+                        <a href="index.html">Home</a><br>
+                        <a href="about.html">About Me</a><br>
+                        <a href="#">Portfolio</a><br>
+                        <a href="#">Event</a><br>
+                        <a href="#">Branding</a><br>
+                    
+
+                </div>
+
+                <div class="work">
+
+                    <h3>Work Category</h3><br>
+                    
+                        <a href="#">Architecture</a><br>
+                        <a href="#">Nature</a><br>
+                        <a href="#">Modelling</a><br>
+                        <a href="#">Event</a><br>
+                        <a href="#">Branding</a><br>
+                    
+
+                </div>
+                <div class="legal">
+
+                    <h3>Legal</h3><br>
+            
+                        <a href="#">Return Policy</a> <br>
+                        <a href="#">Shipping Policy</a> <br>
+                        <a href="#">Privacy Policy</a><br>
+                        <a href="#">Terms of Services</a><br>
+           
+                </div>
             </div>
+        </div>
 
-            <div class="work">
+        <input type="email" placeholder="e-mail ..." class="mail" required>
+        <button type="submit" class="mail_sub">Subscribe</button>
+        <div class="local">
 
-                <h3 >Work Category</h3>
-                <ul>
-                    <li><a href="#">Architecture</a></li>
-                    <li><a href="#">Nature</a></li>
-                    <li><a href="#">Modelling</a></li>
-                    <li><a href="#">Event</a></li>
-                    <li><a href="#">Branding</a></li>
-                </ul>
-
-            </div>
-            <div class="legal">
-
-                <h3>Legal</h3>
-                <ul>
-                    <li><a href="#">Return Policy</a></li>
-                    <li><a href="#">Shipping Policy</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Services</a></li>
-                </ul>
-
-            </div>
-
-        </div >
-         <input type="email" placeholder="e-mail ..." class="mail" required>
-         <button type="submit" class="mail_sub">Subscribe</button>
-            <div class="local">
-               
-                <h4 style="color: #2980ba; width: 90px;">Location</h4> <br>
-                <strong style="width: 10;color: #3498DB;">Surabaya</strong> <br> <br>
-                <p>Jl. Danau Jonge 12, Mayjend <br> 
-Sungkono, Surabaya</p>
-            </div>
-         <div class="para"><p>
-                 Nullam ultrices lorem et augue placerat blandit. Nam nisl lacus, <br>
-imperdiet quis dui pretium, pretium vehicula turpis. Fusce <br>
-scelerisque fermentum lacinia. <br>
-                </p> </div> 
+            <h4 style="color: #2980ba; width: 90px;">Location</h4> <br>
+            <strong style="width: 10;color: #3498DB;">Surabaya</strong> <br> <br>
+            <p>Jl. Danau Jonge 12, Mayjend <br>
+                Sungkono, Surabaya</p>
+        </div>
+        <div class="para">
+            <p>
+                Nullam ultrices lorem et augue placerat blandit. Nam nisl lacus, <br>
+                imperdiet quis dui pretium, pretium vehicula turpis. Fusce <br>
+                scelerisque fermentum lacinia. <br>
+            </p>
+        </div>
     </footer>
 </body>
 
